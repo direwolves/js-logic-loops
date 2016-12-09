@@ -45,7 +45,7 @@ if (5 > 20) {
 
 // EXERCISE
 
-var test = 20;
+/*var test = 20;
 if (test > 10) {
 	alert('Yo cuz, you nailed it!')
 } else {
@@ -70,7 +70,7 @@ if (5 > 10){
 		alert('you will not end up here either')
 }	else {
 		alert('here we are')
-}
+}*/
 
 // Create a named function
 function addNumbers(number1, number2){
@@ -125,6 +125,9 @@ console.log(prize);
 
 // create an array inside of a variable
 var cartoons = ['x-men', 'spawn', 'spider-man'];
+console.log(cartoons[1]);
 
-
+// find the index of an item in an array
+var spawnIndex = cartoons.indexOf('spawn');
+console.log(spawnIndex); // logs 1 to the console
 
