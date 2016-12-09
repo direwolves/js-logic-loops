@@ -45,7 +45,7 @@ if (5 > 20) {
 
 // EXERCISE
 
-var test = 20;
+/* var test = 20;
 if (test > 10) {
 	alert('Yo cuz, you nailed it!')
 } else {
@@ -61,5 +61,32 @@ if (dwarves === 'elves') {
 } else {
 	alert('Snow White would be bummed you didn\'t say ' + dwarves)
 }
+*/
+
+// ELSE IF STATEMENT
+/*if (5 > 10){
+		alert('you will not end up here');
+}	else if (5 < 100){
+		alert('you will not end up here either')
+}	else {
+		alert('here we are')
+}*/
+
+// Create a named function
+function addNumbers(number1, number2){
+	var addedNumbers = number1 + number2;
+	console.log('adding numbers: the result is ' + addedNumbers);
+};
+
+// Invoke our function
+addNumbers(136, 275);
+
+// Create a function that takes a single arguement 
+function myName(fName){
+	console.log('my name is ' + fName)
+}
+
+// invoke that function
+myName('Sean');
 
 
