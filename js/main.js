@@ -45,11 +45,21 @@ if (5 > 20) {
 
 // EXERCISE
 
-var test = 2;
+var test = 20;
 if (test > 10) {
-	alert('Guess what dummy? Two is definitely not more than ten')
+	alert('Yo cuz, you nailed it!')
 } else {
-	alert('So sorry, but you lost!')
+// add the var to the end	
+	alert('So sorry, but you lost! The var is ' + test)
 };
+
+// string example
+var dwarves = 'Sleepy';
+
+if (dwarves === 'elves') {
+	alert('Wrong fiction fella')
+} else {
+	alert('Snow White would be bummed you didn\'t say ' + dwarves)
+}
 
 
