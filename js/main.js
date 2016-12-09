@@ -130,4 +130,22 @@ console.log(cartoons[1]);
 // find the index of an item in an array
 var spawnIndex = cartoons.indexOf('spawn');
 console.log(spawnIndex); // logs 1 to the console
+console.log(cartoons.length);
+
+// for loop
+for(var i = 0; i < 10; i++){
+	console.log(i);
+}
+
+// for loop using variables
+var cars = ['scion', 'toyota', 'acura'];
+for(var i = 0; i < cars.length; i++){
+	console.log(cars[i]);
+}
+
+// adding text to the end of a 'for loop'
+var friends = ['frank', 'jason', 'hank', 'buss'];
+for(var i = 0; i < friends.length; i++){
+	console.log(friends[i] + ' is my friend!');
+}
 
