@@ -45,7 +45,7 @@ if (5 > 20) {
 
 // EXERCISE
 
-/* var test = 20;
+var test = 20;
 if (test > 10) {
 	alert('Yo cuz, you nailed it!')
 } else {
@@ -61,16 +61,16 @@ if (dwarves === 'elves') {
 } else {
 	alert('Snow White would be bummed you didn\'t say ' + dwarves)
 }
-*/
+
 
 // ELSE IF STATEMENT
-/*if (5 > 10){
+if (5 > 10){
 		alert('you will not end up here');
 }	else if (5 < 100){
 		alert('you will not end up here either')
 }	else {
 		alert('here we are')
-}*/
+}
 
 // Create a named function
 function addNumbers(number1, number2){
@@ -88,5 +88,43 @@ function myName(fName){
 
 // invoke that function
 myName('Sean');
+
+// create a function stored inside of a variable
+var myRealName = function(fName){
+	console.log('my real name is ' + fName)
+};
+
+myRealName('Naezravax');
+
+// EXERCISE #2
+// declare a function that takes a "door" as an argument
+
+// create a function stored in a variable
+// allow it to take "door" as an argument
+// based on the value of "door", do some different things
+
+var prize = function(door){
+	console.log(door)
+	// if my door === 'red'
+	// do something
+	if (door === 'red'){
+		console.log ('This door is ' + door);
+	}
+	// if else do this
+	else if (door !== 'red'){
+		console.log ('This door is ' + door);
+	}
+	// else
+	// do something else
+	else {
+		console.log ('This door is ' + door);
+	}	
+}
+prize('blue');
+console.log(prize);
+
+// create an array inside of a variable
+var cartoons = ['x-men', 'spawn', 'spider-man'];
+
 
 
