@@ -32,6 +32,14 @@ console.log('You will never see this')
 }
 
 // because this test is true, console.log will run
-if (5 < 10) {
-console.log('You will definitely see this')
+if (5 <= 10) {
+console.log('You will definitely see this cuz it true')
 }
+
+// ELSE STATEMENT
+if (5 > 20) {
+		console.log('test returns false, so we are pushed to the else')
+}	else {
+		console.log('we ended up in our else statement')
+}
+
