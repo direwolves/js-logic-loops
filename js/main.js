@@ -16,9 +16,22 @@ var joey = {
 	cast: helpers
 };
 
+// console logs
 console.log(hackers)
 console.log(joey)
 console.log(helpers)
 console.log(crashed)
 console.log(hackThePlanet)
 console.log(joey.cast[2])
+
+// IF STATEMENTS
+
+// because this statement is false, console.log never runs
+if (5 > 10) {
+console.log('You will never see this')
+}
+
+// because this test is true, console.log will run
+if (5 < 10) {
+console.log('You will definitely see this')
+}
