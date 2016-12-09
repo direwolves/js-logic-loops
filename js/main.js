@@ -43,3 +43,13 @@ if (5 > 20) {
 		console.log('we ended up in our else statement')
 }
 
+// EXERCISE
+
+var test = 2;
+if (test > 10) {
+	alert('Guess what dummy? Two is definitely not more than ten')
+} else {
+	alert('So sorry, but you lost!')
+};
+
+
